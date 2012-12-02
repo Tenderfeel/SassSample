@@ -1,0 +1,22 @@
+#main {
+  background: white;
+  color: blue;
+  font-size: 1em; }
+  #main a {
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: #7f60e5; }
+    #main a:hover {
+      color: #c6b8f3; }
+
+#main {
+  background: white;
+  color: blue;
+  font-size: 1em; }
+
+#main a {
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  color: #7f60e5; }
+  #main a:hover {
+    color: #c6b8f3; }
