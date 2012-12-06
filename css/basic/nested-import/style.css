@@ -1,0 +1,6 @@
+#main a {
+  color: red; }
+#main p {
+  margin: 1em; }
+#main section > p {
+  margin: 1em 0; }
