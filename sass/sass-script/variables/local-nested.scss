@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+$width: 960px;
+
+header {
+  width:$width;
+  margin:0 auto;
+}
+
+#main {
+  $color:#333;
+  width: $width;
+  margin:20px auto;
+  color: $color; //<- Use!
+
+  section {
+    p {
+      color: $color; //<- Use!
+
+      a:link {
+        color: $color;//<- Use!
+      }
+    }
+  }
+
+  blockquote {
+    color: $color; //<- Use!
+  }
+}
+
+footer {
+  width:$width;
+  margin:0 auto;
+}
