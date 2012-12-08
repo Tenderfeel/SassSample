@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+
+h1 {
+  font-family:"Lucida Grande", Verdana, Arial, sans-serif;//string & list
+  font-weight:bold; //string
+  color:blue; //color
+  font-size:150%; //number
+  margin:10px 10px 0; //number & list
+  border-radius:5px; //number
+}
+
+p {
+  color:rgb(0,0,0); //color
+  font-size:1em; //number
+  line-height:1.5; //number
+}

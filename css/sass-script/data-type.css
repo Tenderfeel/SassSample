@@ -1,0 +1,12 @@
+h1 {
+  font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+  font-weight: bold;
+  color: blue;
+  font-size: 150%;
+  margin: 10px 10px 0;
+  border-radius: 5px; }
+
+p {
+  color: black;
+  font-size: 1em;
+  line-height: 1.5; }
