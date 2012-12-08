@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+//Example 1
+$name: note;
+$attr: border;
+
+p.#{$name} {
+  #{$attr}-color: blue;
+}
+
+//Example 2
+p {
+  $font-size: 12px;
+  $line-height: 30px;
+  font: #{$font-size}/#{$line-height};
+}
+
+//Example 3
+p:before {
+  content: "I ate #{5 + 10} pies!";
+}
+
+//Example 4
+$value: null;
+
+p:before {
+  content: "I ate #{$value} pies!";
+}
