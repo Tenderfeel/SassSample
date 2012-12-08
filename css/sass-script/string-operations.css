@@ -1,0 +1,10 @@
+@charset "UTF-8";
+p {
+  cursor: e-resize; }
+
+p::before {
+  content: "Foo Bar";
+  font-family: sans-serif; }
+
+p {
+  font-family: "ＭＳＰゴシック", sans-serif; }

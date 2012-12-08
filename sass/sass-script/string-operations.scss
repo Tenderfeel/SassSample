@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+//Example 1
+p {
+  cursor: e + -resize;
+}
+
+//Example 2
+p::before {
+  content: "Foo " + Bar;
+  font-family: sans- + "serif";
+}
+
+//Function Example
+p {
+    font-family:quote(ＭＳＰゴシック), unquote("sans-serif");
+}
